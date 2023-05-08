@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1673223512 source:c:\users\joaof\desktop\faculdade\3º semestre\ed1\aula\lista\quest4_joaofelipe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1673223514 source:c:\users\joaof\onedrive\documentos\faculdade\3º semestre\ed1\feitos\lista\quest4_joaofelipe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

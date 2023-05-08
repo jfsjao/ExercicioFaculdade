@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1673223775 source:c:\users\joaof\desktop\faculdade\3º semestre\ed1\listas\questionarios\quest1_joãofelipe\quest4_joãofelipe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

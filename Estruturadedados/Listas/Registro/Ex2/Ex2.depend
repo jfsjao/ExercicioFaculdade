@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1665164460 source:c:\users\joaof\desktop\faculdade\3º semestre\ed1\estruturas\listas\ex2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

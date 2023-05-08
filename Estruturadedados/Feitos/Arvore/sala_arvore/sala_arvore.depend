@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1673629137 source:c:\users\joaof\desktop\faculdade\3º semestre\ed1\aula\arvore\sala_arvore\main.c
+	<stdio.h>
+	<stdlib.h>
+
