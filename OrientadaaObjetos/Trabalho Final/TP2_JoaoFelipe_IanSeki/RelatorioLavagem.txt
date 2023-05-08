@@ -1,0 +1,3 @@
+Lavagem: tipo: seca, codigo: 1, Entrada: 12:00h, Saida estimada: 13:00h, ID: 1, placa: 111-1111
+Lavagem: tipo: seca, codigo: 3, Entrada: 15:00h, Saida estimada: 16:00h, ID: 3, placa: 333-3333
+Lavagem: tipo: Enceramento, codigo: 95, Entrada: 23:50h, Saida estimada: 01:00h, ID: 55, placa: 100-0000

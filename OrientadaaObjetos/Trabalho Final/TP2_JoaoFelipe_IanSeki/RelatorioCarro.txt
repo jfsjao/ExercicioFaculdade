@@ -1,0 +1,5 @@
+Nome Cliente: David Bowie , carro: Brasilia Amarela, placa: 111-1111, telefone: (34) 99999-9999
+Nome Cliente: Fred mercury, carro: Fusca, placa: 222-2222, telefone: (32) 88888-8888
+Nome Cliente: Lady Gaga, carro: Gol Bolinha, placa: 333-3333, telefone: (34) 55555-5555
+Nome Cliente: anastacia, carro: palio, placa: 123-4567, telefone: (16) 33713-2626
+Nome Cliente: will, carro: palio, placa: 100-0000, telefone: (34) 55555-5555
