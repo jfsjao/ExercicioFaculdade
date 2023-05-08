@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entre em contato - UFU</title>
+
+    </head>
+    
+    <body bgcolor="grey">
+        <a href="../homePage.html">Voltar para Home Page</a>
+
+        <center><h1>Universidade Federal de Uberlândia</h1></center>
+        <form action="Agradecimento.html" method="get">
+            <h3>Entre em contato: </h3>
+            <fieldset>
+                    <div>
+                    
+                        <h3>Informações Pessoais: </h3>
+                        Nome Completo:<input type="text" name="Nome Completo:" required>
+                        <br><br>
+                        Telefone: <input type="tel" name="Telefone " required>
+                        <br><br>   
+                        Email:<input type="email" name="Email: " required>
+                        <br><br>
+                        Data de nascimento:<input type="date" name="Data de nascimento:" required>
+                        <br><br>
+                        Escolaridade: <input type= "text" name="Escolaridade">
+                        <br><br>     
+                    </div>
+            </fieldset>
+            
+            <fieldset>
+                    <div>
+                    
+                        <h3>Cursos de Interesse: </h3>
+                    
+                        <input type= "checkbox" name="Alemão" >Alemão
+                        <br>
+                        <input type= "checkbox" name="Espanhol" >Espanhol
+                        <br>
+                        <input type= "checkbox" name="Inglês" >Inglês
+                        <br>
+                        <input type= "checkbox" name="Mandarim" >Mandarim
+                        <br>
+                        <br><br>
+                    </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div>
+                            <h3>Está frequentando a UFU? </h3>
+
+                            Frequentante: <input type="radio" name="Frequentante">
+                            <br>
+                            Não Frequentante: <input type="radio" name="Não frequentante">
+
+                            <h3>Você tem? </h3>
+                            <select name="Você Tem?">
+                                <option value="1">Reclamações</option>
+                                <option value="2">Dúvidas</option>
+                                <option value="3">Sugestões</option>
+                            </select>
+                            <br><br>
+                            <textarea name="txtComentario" cols="80" rows="5" maxlength="2000" placeholder="No máx 2000 caracteres"></textarea>
+                            <br><br>
+                            Anexos: <input type="file" name="Anexos">
+
+                </div>
+            </fieldset>
+            <input type="submit" value="OK">
+            <a href="Agradecimento.html"></a>
+            <input type="reset" name="Limpar">
+        </form>
+
+    </body>
+
+
+
+</html>

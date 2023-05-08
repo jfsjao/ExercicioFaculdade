@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entre em contato - UFU</title>
+        <link rel="stylesheet" href="../CSS/Estilização.css">
+
+    </head>
+    
+    <body bgcolor="grey">
+        <div id="header">
+            <center>
+                <a class = "menu links" href="../homePage.html">Voltar para Home Page</a>
+            </center>
+        </div>
+        <br>
+        <h1 class="centralizado" >Universidade Federal de Uberlândia</h1>
+
+        <form action="Agradecimento.html" method="get">
+            <h2>Entre em contato: </h2>
+            <fieldset>
+                    <div>
+                    
+                        <h2>Informações Pessoais: </h2>
+                        <p class="pform">Nome Completo:</p><input type="text" name="Nome Completo:" required>
+                        <br><br>
+                        <p class="pform">Telefone:</p><input type="tel" name="Telefone " required>
+                        <br><br>   
+                        <p class="pform">Email:</p><input type="email" name="Email: " required>
+                        <br><br>
+                        <p class="pform">Data de nascimento:</p><input type="date" name="Data de nascimento:" required>
+                        <br><br>
+                        <p class="pform">Escolaridade:</p> <input type= "text" name="Escolaridade">
+                        <br><br> 
+
+                    </div>
+            </fieldset>
+            
+            <fieldset>
+                    <div>
+                    
+                        <h2>Cursos de Interesse: </h2>
+                    
+                        <input type= "checkbox" name="Alemão" >Alemão
+                        <br>
+                        <input type= "checkbox" name="Espanhol" >Espanhol
+                        <br>
+                        <input type= "checkbox" name="Inglês" >Inglês
+                        <br>
+                        <input type= "checkbox" name="Mandarim" >Mandarim
+                        <br>
+                        <br><br>
+                    </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div>
+                            <h2>Está frequentando a UFU? </h2>
+
+                            Frequentante: <input type="radio" name="Frequentante">
+                            <br>
+                            Não Frequentante: <input type="radio" name="Não frequentante">
+
+                            <h2>Você tem? </h2>
+                            <select name="Você Tem?">
+                                <option value="1">Reclamações</option>
+                                <option value="2">Dúvidas</option>
+                                <option value="3">Sugestões</option>
+                            </select>
+                            <br><br>
+                            <textarea name="txtComentario" cols="80" rows="5" maxlength="2000" placeholder="No máx 2000 caracteres"></textarea>
+                            <br><br>
+                            Anexos: <input type="file" name="Anexos">
+
+                </div>
+            </fieldset>
+            <input type="submit" value="OK">
+            <a href="Agradecimento.html"></a>
+            <input type="reset" name="Limpar">
+        </form>
+
+    </body>
+
+
+
+</html>

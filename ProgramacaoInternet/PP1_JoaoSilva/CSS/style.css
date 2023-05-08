@@ -1,0 +1,270 @@
+@font-face {
+    font-family: bodytext;
+    src: url(/FONTES/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: title;
+    src: url(/FONTES/Noto_Sans/NotoSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@media screen and (max-width: 600px) {
+    .conteudo-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrapper-tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper-fd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fieldsetesq{
+        display: flex;
+        
+        margin: 0 165px;
+        border-radius: 25px;
+        margin-right: 0rem; 
+    }
+    .fieldsetdir{
+
+
+    }
+    #table-curiosidadesedicas{
+        width: 90%;
+    }
+
+}
+
+
+    
+
+header{
+    background-color: #0b1a0c;
+    padding-top: 0.938rem;
+
+}
+body{
+    background-color: #50673e;
+    margin:auto;
+}
+fieldset{
+    background-color: #9baa6b ;
+    border: 0;
+    margin: 0;
+}     
+footer{
+    background-color: #0b1a0c;
+    color: white;
+    padding: 1.875rem;
+   
+}
+label{
+    font-size: 1.25rem;
+    font-family: bodytext;
+}
+h2{
+    font-size: 25px;
+    font-family: bodytext;
+}
+h3{
+    font-size: 1.875rem;
+    font-family: bodytext;
+    margin-bottom: 0.938rem;
+}
+p{
+    margin-top: auto;
+    font-size: 1.25rem;
+    font-family: bodytext;
+
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: bodytext;
+
+}
+thead{
+     background-color: #293929;
+     color: white;
+}
+center>nav{
+    background-color: #293929;
+    border-left: 0;
+    padding-left: 0;
+    margin-left: auto;
+}
+nav > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+    font-family: bodytext;
+    margin-left: 5rem;
+    
+    
+}
+header > h1{
+    text-align: left;
+    color: white;
+    font-family: title; 
+    font-size: 50px;
+}
+div > h1{
+    text-align: left;
+    color: white;
+    font-family: title; 
+    font-size: 50px;
+}
+div>input{
+    font-size: 15px;
+
+}
+.imgtam{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header h1 {
+    margin-left: 1.25rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footerp{
+    font-size: 14px;
+    font-family: bodytext;
+}
+.imgarredondado{
+    border-radius: 40px;
+    margin-right: 3.125rem; 
+    border: 0;
+}
+#fieldsetloc{
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+    margin-left: 0rem;
+    margin-right:3.125rem;
+    text-align: left;
+}
+#table{
+    font-size: 1.25rem;
+    font-family: bodytext;
+    margin: 25rem;
+    margin-right: 0rem;
+    border: 0rem;
+    padding: 0rem;
+    
+}
+#fieldsetcent{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    margin-right: 10rem;
+    margin-top: 2rem ;
+    margin-bottom: 2rem ;
+    text-align: left;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;  
+    margin-left: 65px;
+}
+
+.fieldsetesq{
+    padding-right: 5rem;
+    margin-right:  25rem;
+    text-align: left;
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+
+}
+.fieldsetdir{
+    padding-left:  5rem;
+    margin-left:  25rem;
+    text-align: right;
+    border-radius:  2.5rem 0rem 0rem 2.5rem;
+}
+
+.conteudo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.table-curiosidadesedicas{
+    border: 0.063rem solid black;
+    
+}
+
+
+#table-curiosidadesedicas td {
+    border: 0.063rem solid black;
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: bodytext;
+
+    
+}
+#fieldsetfotos{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 10rem;
+    padding-right: 0.05rem;
+    margin-right: 10rem;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    text-align: center;
+    
+}
+#fieldsettable{
+    padding-left: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 10rem;
+    padding-right: 0.05rem;
+    margin-right: 10rem;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    
+}
+
+#dividir{
+    padding-left: 6.25rem;
+}
+/*.fotos{
+    background: url('../FOTOS/Conteúdo/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    opacity: 0.7;
+}
+*/

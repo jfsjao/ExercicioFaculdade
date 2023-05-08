@@ -1,0 +1,389 @@
+@font-face {
+    font-family: bodytext;
+    src: url(/FONTES/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: title;
+    src: url(/FONTES/Noto_Sans/NotoSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@media only screen and (max-width: 775px) {
+    .conteudo-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrapper-tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #dividir{
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+
+    .wrapper-fd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .imgarredondado{
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    #arre #arre2{
+        width: 100%;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .fieldsetesq{
+        display: flex;
+        border-radius: 25px;
+        margin-right: 0rem; 
+    }
+
+    .fieldsetdir{
+        display: flex;
+        margin-left: 0rem;
+    }
+
+    .wrapper-fieldsetdir{
+        width: 80%;
+    }
+
+    .wrapper-fieldsetesq{
+        width: 90%;
+    }
+
+    #table-curiosidadesedicas{
+        width: 90%;
+    }
+
+    #fieldsetcent textarea{
+        width: 50%;
+    }
+    nav>a{
+        margin-top: 10px;
+    }
+}
+
+
+    
+
+header{
+    background-color: #0b1a0c;
+    padding-top: 0.938rem;
+
+}
+body{
+    background-color: #50673e;
+    margin:0 auto;
+}
+fieldset{
+    border: 0;
+    margin: 0;
+    background: #9baa6b;
+}     
+footer{
+    background-color: #0b1a0c;
+    color: white;
+    padding: 1.875rem;
+   
+}
+label{
+    font-size: 1.25rem;
+    font-family: bodytext;
+}
+h2{
+    font-size: 25px;
+    font-family: bodytext;
+}
+h3{
+    font-size: 1.875rem;
+    font-family: bodytext;
+    margin-bottom: 0.938rem;
+}
+p{
+    margin-top: auto;
+    font-size: 1.25rem;
+    font-family: bodytext;
+
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: bodytext;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.thead{
+     background-color: #293929;
+     color: white;
+}
+center>nav{
+    background-color: #293929;
+    border-left: 0;
+    padding-left: 0;
+    margin-left: auto;
+}
+nav > a{
+    margin-left: 5rem;
+}
+header > h1{
+    text-align: left;
+    color: white;
+    font-family: title; 
+    font-size: 50px;
+}
+div > h1{
+    text-align: left;
+    color: white;
+    font-family: title; 
+    font-size: 50px;
+}
+div>input{
+    font-size: 15px;
+
+}
+.imgtam{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header h1 {
+    margin-left: 1.25rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+tr{
+    padding: 150px;
+}
+td{
+    background-color: #9baa6b;
+    border-radius: 5px;
+}
+
+.table-curiosidadesedicas{
+    width: 50%;
+}
+
+#footerp{
+    font-size: 14px;
+    font-family: bodytext;
+}
+.imgarredondado{
+    border-radius: 40px;
+    margin-right: 25px;
+    border: 0;
+    width: 40%;
+}
+#setaarredondada{
+    border-radius: 40px;
+    margin-right: 25px;
+    border: 0;
+
+}
+#fieldsetloc{
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+    margin-left: 0rem;
+    margin-right:3.125rem;
+    text-align: left;
+}
+#table{
+    font-size: 1.25rem;
+    font-family: bodytext;
+    margin: 25rem;
+    margin-right: 0rem;
+    border: 0rem;
+    padding: 0rem;
+    
+    
+}
+#fieldsetcent{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem ;
+    margin-bottom: 2rem ;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fieldsetcent h3{
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    
+}
+
+.inputssss{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputssss input{
+    padding: 10px;
+}
+
+.fieldsetesq{
+    padding-right: 5rem;
+    text-align: left;
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+    background: #9baa6b;
+}
+
+#fieldsetcent textarea{
+    border-radius: 25px;
+    padding: 15px;
+    width: 95%;
+}
+
+#fieldsetcent input{
+    border-radius: 25px;
+
+}
+
+.fieldsetesq{
+    width: 75%;
+    margin-top: 25px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerloc{
+    text-align: center;
+}
+
+.botoes input{
+    margin-right: 10px;
+}
+
+
+#hor{
+    margin-bottom: 25px;
+}
+
+.fieldsetdir{
+    padding: 25px;
+    background: #9baa6b;
+    margin-left: 25%;
+    border-radius: 2.5rem 0rem 0rem 2.5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.conteudo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.table-curiosidadesedicas{
+    border: 0.063rem solid black;
+    
+}
+
+.wrapper-fieldsetesq{
+    background-color: #9baa6b;
+    width: 75%;
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+    padding: 25px;
+
+}
+
+
+#table-curiosidadesedicas td {
+    border: 0.063rem solid black;
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: bodytext;
+    text-align: center;
+
+    
+}
+#fieldsetfotos{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 10rem;
+    padding-right: 0.05rem;
+    margin-right: 10rem;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    text-align: center;
+    
+}
+
+
+#fieldsettable{
+    padding-left: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 10rem;
+    padding-right: 0.05rem;
+    margin-right: 10rem;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#dividir{
+    margin-left: 50px;
+}
+/*.fotos{
+    background: url('../FOTOS/Conteúdo/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    opacity: 0.7;
+}
+*/

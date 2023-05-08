@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html long="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page - UFU</title>
+    <link rel="stylesheet" href="CSS/Estilização.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+</head>
+
+<body bgcolor="grey">
+
+    <div id="header">
+        <center>
+            <a class = "menu links" href="./fotos/fotosPage.html">Veja nossa galeria de fotos!</a>
+            <a class = "menu links" href="./contato/contato.html">Entre em contatos</a>
+            <a class = "menu links" href="./Alunos.html">Alunos matriculados</a>
+          
+        </center>
+    </div>
+    <br>
+
+
+
+    <h1 class="centralizado">Universidade Federal de Uberlândia</h1></center>
+    <h2>Ex Alunos matriculados no curso: </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque incidunt ipsam cupiditate, libero optio
+        maiores rem. Laborum, quidem dignissimos consequuntur sunt voluptatem asperiores, ipsa ullam ad corporis,
+        quibusdam saepe!Lorem</p>
+
+        <h2>Tabela de ex alunos:</h2>
+        <table >
+            <tr>
+                <td>Nomes: </td>
+                <td>Anos: </td>
+                <td>Ano que concluirão: </td>
+            </tr>
+        <script>
+            var ListaN = ["João ","Felipe", "Hernesto", "Pedro", "Ricardo","Guilherme", "Davi","Raquel","Vanessa","Mateus"]
+            var ListaA = [2022, 2011, 2010, 2005, 2002, 2012, 2013,2015 ,2016,2012]
+            var ListaC =[" Espanhol",'Alemão','Inglês'," Espanhol"," Espanhol"," Espanhol",'Alemão','Inglês','Inglês']
+            var i;
+            
+            for(i=0;i<10; i++){
+                document.write("<tr> <td>"+ListaN[i]+" </td> <td> "+ListaA[i]+" </td> <td>"+ListaC[i]+" </td> </tr>");
+            }
+            
+        </script>
+       </table>
+
+   
+
+
+</body>
+
+</html>

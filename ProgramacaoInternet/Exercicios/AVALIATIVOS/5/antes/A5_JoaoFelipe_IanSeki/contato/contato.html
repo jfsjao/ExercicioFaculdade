@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entre em contato - UFU</title>
+        <link rel="stylesheet" href="../CSS/Estilização.css">
+        
+    </head>
+    
+    <body bgcolor="grey">
+        <div id="header">
+            <center>
+                <a class = "menu links" href="../homePage.html">Voltar para Home Page</a>
+                <a class = "menu links" href="./Alunos.html">Alunos matriculados</a>
+                <a class = "menu links" href="./Ex_alunos.html">Ex Alunos dos cursos</a>
+            </center>
+        </div>
+        <br>
+        <h1 class="centralizado" >Universidade Federal de Uberlândia</h1>
+
+        <form name="formcontato" id="formcontato">
+            <h2>Entre em contato: </h2>
+            <fieldset>
+                    <div>
+                        
+                        <h2>Informações Pessoais: </h2>
+
+                        <p>Opcional *</p>
+                        <label for="NomeCompleto">Nome Completo:</label>
+                        <input type="text" id="NomeCompleto" name="NomeCompleto:" >
+                        <span></span>
+                        <br><br>
+                        <label for="Telefone">Telefone: *</label>
+                        <input type="tel" id="Telefone" name="Telefone ">
+                        <span></span>
+                        <br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" >
+                        <span></span>
+                        <br><br>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf" name="cpf " >
+                        <span></span>
+                        <br><br>
+                        <label for="Data">Data de nascimento: </label>
+                        <input type="date" id="data" name="Data" >
+                        <span></span>
+                        <br><br>
+                        <label for="Escolaridade">Escolaridade: *</label>
+                        <input type= "text" id="Escolaridade" name="Escolaridade">
+                        <span></span>
+                        <br><br> 
+                        
+                    </div>
+            </fieldset>
+            
+            <fieldset>
+                    <div>
+                    
+                        <h2>Cursos de Interesse: </h2>
+                        
+                        <select name="Cursos" id="cursosbox">
+                            <option value="">Cursos</option>
+                            <option value="1">Alemão</option>
+                            <option value="2">Espanhol</option>
+                            <option value="3">Inglês</option>
+                            <option value="3">Mandarim</option>
+                        </select>
+                        <span></span>
+                    </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div>
+                            <h2>Está frequentando a UFU? </h2>
+                            <label for="Frequentante">Frequentante</label>
+                            <input type="radio" id="Frequentante" value="Frequentante" name="Frequentante">
+                            <br>
+                            <label for="Nao frequentante">Não frequentante: </label>
+                            <input type="radio" id="frequentante" value="Não frequentante" name="Não frequentante">
+                            <span></span>
+
+                            <h2>Você tem? </h2>
+                            <select name="Você Tem?">
+                                <option value="1">Reclamações</option>
+                                <option value="2">Dúvidas</option>
+                                <option value="3">Sugestões</option>
+                            </select>
+                            <span></span>
+                            <br><br>
+                            <textarea name="txtComentario" id="text" cols="80" rows="5" maxlength="2000" placeholder="No máx 2000 caracteres"></textarea>
+                            <br><br>
+                            Anexos: <input type="file" name="Anexos">
+
+                </div>
+            </fieldset>
+            <input type="submit" value="OK">
+            
+            <input type="reset" name="Limpar">
+        </form>
+
+        <div>
+            <ol>
+                
+            </ol>
+        </div>
+
+        <script src="../Js/verificacao.js"></script>
+    </body>
+
+
+
+</html>

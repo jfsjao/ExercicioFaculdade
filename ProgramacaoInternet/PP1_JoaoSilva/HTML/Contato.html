@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Entre em contato - Horto Municipal</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <header>
+           <div class="conteudo-header">
+            <div class="titulo"> <h1>Horto Municipal de São Carlos</h1></div>
+            <div class="navegacao">
+                <nav class="center">
+                    <a href="../HTML/Homepage.html">Home</a>
+                    <a href="../HTML/Atividades.html">Atividades da Organização</a>
+                    <a href="../HTML/Contato.html">Entre em contato</a>
+                    <a href="../HTML/Localização.html">Localização da Organização</a>
+                </nav>
+            </div>
+           </div>
+        </header>
+
+        <fieldset id="fieldsetcent">
+            <h3>Entre em contato: </h3>
+            
+                <form action="#">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id ="nome" name = "nome" required>
+                        <br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id = "email" name = "email" required>
+                        <br><br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" id="telefone" name = "telefone" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Sugestões">Sugestões: </label>
+                        <input type="radio" id="Sugestões" name="pretext" value="Sugestões" checked>
+                        <label for="Reclamações">Reclamações: </label>
+                        <input type="radio" id="Reclamações" name="pretext" value="Reclamações">
+                        <label for="Duvidas">Duvidas: </label>
+                        <input type="radio" id = "Duvidas" name="pretext" value="Duvidas">
+                        <label for="Agendamentos">Agendamentos: </label>
+                        <input type="radio" id="Agendamentos" name="pretext" value="Agendamentos">
+
+                        <br><br>
+                        <textarea name="txtContato" cols="50" rows="5" maxlength="2000" placeholder="No máx. 2000 caracteres"></textarea>
+                    
+                    </div>
+                    <div>
+                        <p> <input type="file" name="Anexos"> </p>
+                    </div>
+                    <input type="submit" value="OK">
+                    <input type="reset" name="Limpar">
+                </form>
+        </fieldset>
+        
+        
+        <footer>
+            <div class="conteudo-footer">
+                    <div>
+                        <p id="footerp">
+                            Site criado por João Felipe Silva, inspirado no Horto Municipal de São Carlos, uma organização do municipio sem fins lucrativos - 2022. 
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li> <a href="../HTML/Homepage.html">Home</a> </li>
+                            <li><a href="../HTML/Atividades.html"> Atividades</a></li>
+                            <li><a href="../HTML/Contato.html" > Contato</a></li>
+                        </ul>
+                    </div>
+                    <div id="dividir">
+                        <a href="#">
+                            <img src="/FOTOS/Design/Seta.png" alt="Volta pro topo" width="50" height="50" class ="imgarredondado" >
+                        </a>
+                    </div> 
+    
+            </div>   
+        </footer> 
+    </body>
+
+</html>

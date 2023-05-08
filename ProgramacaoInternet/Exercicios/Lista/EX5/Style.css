@@ -1,0 +1,25 @@
+h1{
+    font-size: 32;
+    text-align: center;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+body{
+    background-image: url(/Imagens/Ufu_logo.svg.png);
+    background-position-y: 1000px ;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+a{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-style:oblique;
+    text-decoration: none;
+    
+}

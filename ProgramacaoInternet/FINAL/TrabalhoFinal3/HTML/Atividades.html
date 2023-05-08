@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividades da Organização - Horto Municipal</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="..//JS/animacao.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <ul class="breadcrumb">
+                <li><a href="./Homepage.html">Home</a></li>
+                <li><a href="./Atividades.html">Atividades</a></li>
+
+            </ul>
+            <h1>Horto Municipal de São Carlos</h1>
+            <nav class="center">
+                <a href="../HTML/Homepage.html">Home</a>
+                <a href="../HTML/Atividades.html" id="paglink">Atividades da Organização</a>
+                <a href="../HTML/Contato.html">Entre em contato</a>
+                <a href="../HTML/Localização.html">Localização da Organização</a>
+            </nav>
+        </header>
+
+
+        <section class="fieldsetesq">
+            <div class="wrapper-fieldsetesq">
+                <h3>História do horto </h3>
+                <p>
+                    O horto está em funcionamento desde 1953, no inicio os canteiros apenas possuim mudas, agora tais
+                    plantas se tornaram grandes árvores, mas em apenas 2004 foi aberto a trilha ecológica, por volta de
+                    350
+                    metros de percurso.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="fieldsetdir">
+            <div class="wrapper-fd">
+                <h3>O que a organização faz? </h3>
+                <p>
+                    A organização trabalha para pesquisa de especies para paisagismo e para pesquisa para a Universidade
+                    Federal de São Carlos, trabalhando com plantas de diversas regiões do mundo.
+                    Além da equipe que produz as mudas do horto, distribuirem mudas para serem usadas no reflorestamento
+                    de matas ciliares e arborização de áreas urbanas.
+                </p>
+            </div>
+        </section>
+
+        <section class="fieldsetfotos">
+            <div class="container-carrousel">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../FOTOS/Conteúdo/3.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../FOTOS/Conteúdo/5.jpg" alt="Chicago" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../FOTOS/Conteúdo/4.jpg" alt="New York" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="table-conteudo cards" id="fieldsettable">
+            <table id="table-curiosidadesedicas">
+                <thead>
+                    <tr>
+                        <td class="thead cards-header">Curiosidades: </td>
+                        <td class="thead cards-header">Dicas: </td>
+                    </tr>
+                </thead>
+                <tbody class="card-body">
+                    <tr>
+                        <td>Não é necessário agendar</td>
+                        <td>Cuidado na trilha por conta de animais</td>
+
+                    </tr>
+                    <tr>
+                        <td>Áreas lúdicas e de educação ambiental</td>
+                        <td>Usar repelentes</td>
+                    </tr>
+                    <tr>
+                        <td>Com mais de 110 especies de plantas</td>
+                        <td>Levar algum aparelho para fotos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <br>
+
+    <footer>
+        <div class="conteudo-footer">
+            <div>
+                <p id="footerp">
+                    Site criado por João Felipe Silva, inspirado no Horto Municipal de São Carlos, uma organização do
+                    municipio sem fins lucrativos - 2022.
+                </p>
+            </div>
+            <div>
+                <ul>
+                    <li> <a href="../HTML/Homepage.html">Home</a> </li>
+                    <li><a href="../HTML/Atividades.html"> Atividades</a></li>
+                    <li><a href="../HTML/Contato.html">Contato</a></li>
+                    <li><a href="../HTML/Localização.html">Localização</a></li>
+                </ul>
+            </div>
+            <div id="dividir">
+                <a href="#">
+                    <img src="../FOTOS/Design/Seta.png" alt="Volta pro topo" width="50" height="50"
+                        id="setaarredondada">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

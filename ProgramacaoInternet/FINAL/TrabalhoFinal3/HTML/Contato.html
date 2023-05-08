@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Entre em contato - Horto Municipal</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="..//JS/animacao.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="conteudo-header">
+            <ul class="breadcrumb">
+                <li><a href="./Homepage.html">Home</a></li>
+                <li><a href="./Contato.html">Contato</a></li>
+
+            </ul>
+            <div class="titulo">
+                <h1>Horto Municipal de São Carlos</h1>
+            </div>
+            <div class="navegacao">
+                <nav class="center">
+                    <a href="../HTML/Homepage.html">Home</a>
+                    <a href="../HTML/Atividades.html">Atividades da Organização</a>
+                    <a href="../HTML/Contato.html" id="paglink">Entre em contato</a>
+                    <a href="../HTML/Localização.html">Localização da Organização</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <fieldset id="fieldsetcent">
+        <h3>Entre em contato: </h3>
+
+        <form action="#" name="formcontato" method="get" id="formcontato">
+            <div class="inputssss">
+                <label for="nomecompleto">Nome Completo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                    </svg>:</label>
+                <input type="text" id="nome" name="nomecompleto">
+                <span role="alert" id="nomecompletoError" aria-hidden="true" class="spanerro">
+                    Insira seu nome completo.
+                </span>
+                <br><br>
+                <label for="email">Email <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-mailbox" viewBox="0 0 16 16">
+                        <path
+                            d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                        <path
+                            d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                    </svg> :</label>
+                <input type="email" id="email" name="email">
+                <span role="alert" id="emailError" aria-hidden="true" class="spanerro">
+                    Insira seu email.
+                </span>
+                <span role="alert" id="emailError1" aria-hidden="true" class="spanerro">
+                    Insira o email adequadamente com "@" e ".com".
+                </span>
+                <br><br>
+
+                <label for="telefone">Telefone <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                        <path
+                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg> :</label>
+                <input type="text" id="telefone" name="telefone">
+                <span role="alert" id="telError" aria-hidden="true" class="spanerro">
+                    Insira seu telefone.
+                </span>
+                <span role="alert" id="telError1" aria-hidden="true" class="spanerro">
+                    O telefone deve conter 11 ou 10 digitos.
+                </span>
+            </div>
+            <div id="checkboxform">
+                <p id="pform">Selecione as formas de contato: </p>
+                <label for="contatotel" class="groupbox">Telefone</label>
+                <input type="checkbox" name="tel" id="chktel">
+                <label for="contatoemail" class="groupbox">Email</label>
+                <input type="checkbox" name="email" id="chkemail">
+                <span role="alert" id="chkemailtelError" aria-hidden="true" class="spanerro">
+                    Preencha uma das opções.
+                </span>
+
+            </div>
+            <br>
+            <div>
+                <div class="groupradio1">
+                    <div class="groupradio">
+                        <label for="Sugestões">Sugestões: </label>
+                        <input type="radio" id="Sugestões" name="pretext" value="Sugestões" checked>
+                    </div>
+                    <div class="groupradio">
+                        <label for="Reclamações">Reclamações: </label>
+                        <input type="radio" id="Reclamações" name="pretext" value="Reclamações">
+                    </div>
+                    <div class="groupradio">
+                        <label for="Duvidas">Duvidas:</label>
+                        <input type="radio" id="Duvidas" name="pretext" value="Duvidas">
+                    </div>
+                    <div class="groupradio">
+                        <label for="Agendamentos">Agendamentos: </label>
+                        <input type="radio" id="Agendamentos" name="pretext" value="Agendamentos">
+                    </div>
+                </div>
+                <br><br>
+                <textarea name="txtContato" class="texta" id="text" cols="50" rows="3" maxlength="2000"
+                    placeholder="No máx. 2000 caracteres"></textarea>
+                <span role="alert" id="textError" aria-hidden="true" class="spanerro">
+                    Preencha a caixa de texto.
+                </span>
+            </div>
+            <div id="anexos">
+                <p> <input type="file" name="Anexos"> </p>
+            </div>
+            <div class="botoes">
+                <fieldset>
+                    <input type="button" id="enviar" value="Verificar">
+                </fieldset>
+            </div>
+        </form>
+    </fieldset>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div id="modaltitle">
+                <h5 id="title">Dados Cadastrados:</h5>
+                <span id="closeModal" class="close-button">&times;</span>
+            </div>
+            <p class="pmodal">Nome: <span id="pNome" class="spanmodal break-word break-all"></span></p>
+            <p class="pmodal">Email: <span id="pEmail" class="spanmodal break-word break-all"></span></p>
+            <p class="pmodal">Telefone: <span id="pTele" class="spanmodal break-word break-all"></span></p>
+            <p class="pmodal">Caixa de texto: <span id="pText" class="spanmodal1 break-word break-all"></span></p>
+            <div class="botoes-container">
+                <input type="button" id="limpar" class="botoes1" value="Limpar">
+                <input type="button" id="editar" class="botoes1" value="Editar">
+                <input type="button" id="enviarfinal" class="botoes1" value="Enviar"
+                    onclick="location.href='../HTML/Agradecimento.html'">
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="conteudo-footer">
+            <div>
+                <p id="footerp">
+                    Site criado por João Felipe Silva, inspirado no Horto Municipal de São Carlos, uma organização do
+                    municipio sem fins lucrativos - 2022.
+                </p>
+            </div>
+            <div>
+                <ul>
+                    <li> <a href="../HTML/Homepage.html">Home</a> </li>
+                    <li><a href="../HTML/Atividades.html"> Atividades</a></li>
+                    <li><a href="../HTML/Contato.html">Contato</a></li>
+                    <li><a href="../HTML/Localização.html">Localização</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#" id="setinha">
+                    <img src="../FOTOS/Design/Seta.png" alt="Volta pro topo" width="50" height="50" id="setaarredondada"
+                        class="responsive">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="../JS/index.js"></script>
+
+
+</body>
+
+</html>

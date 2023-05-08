@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".imgGaleria").hover(
+                function () { // esta funcao eh executada quando o pont. do mouse entra na região da img.
+                    $(this).animate({
+                        width: '500px', // a largura da img. será aumentada gradualmente até 500 pixels
+                        height: '400px' // a altura da img. será aumentada gradualmente até 400 pixels
+                    });
+                },
+                function () { // esta funcao eh executada quando o pont. do mouse deixa a região da img.
+                    $(this).animate({
+                        width: '400px',
+                        height: '300px'
+                    });
+                }
+            );
+        });
+    </script>
+    <style>
+        .imgGaleria {
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <center><img src="./download.jfif"><br></center>
+    <p>( ͡❛ ͜ʖ ͡❛)</p>
+    <img class="imgGaleria" src="./3.jfif">
+    <img class="imgGaleria" src="./4.jfif">
+    <img class="imgGaleria" src="./6.jfif">
+</body>
+
+</html>

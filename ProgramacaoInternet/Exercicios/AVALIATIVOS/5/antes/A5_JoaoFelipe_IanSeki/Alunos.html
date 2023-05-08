@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html long="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page - UFU</title>
+    <link rel="stylesheet" href="CSS/Estilização.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./Js/alunos.js"></script>
+
+</head>
+
+<body bgcolor="grey">
+
+    <div id="header">
+        <center>
+            <a class = "menu links" href="./fotos/fotosPage.html">Veja nossa galeria de fotos!</a>
+            <a class = "menu links" href="./contato/contato.html">Entre em contatos</a>
+            <a class = "menu links" href="./Ex_alunos.html">Ex Alunos dos cursos</a>
+        </center>
+    </div>
+    <br>
+
+
+
+    <h1 class="centralizado">Universidade Federal de Uberlândia</h1></center>
+    <h2>Alunos matriculados no curso: </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque incidunt ipsam cupiditate, libero optio
+        maiores rem. Laborum, quidem dignissimos consequuntur sunt voluptatem asperiores, ipsa ullam ad corporis,
+        quibusdam saepe!Lorem</p>
+
+    <h2>Tabela de Alunos</h2>
+
+    <ol>
+    <script>
+        var Lista = [["João ",2022," Espanhol"],["Felipe",2030," Espanhol"],["Hernesto", 2025,'Inglês'],["Pedro",2026," Espanhol"], ["Ricardo",2029,'Alemão'],["Guilherme", 2026, "Mandarim"],["Davi",2025," Espanhol"],["Raquel",2029,'Alemão'],["Vanessa",2030,'Mandarim'],["Mateus",2030,'Mandarim']]
+        var i;
+        
+        for(i=0;i<10; i++){
+            document.write("<li>"+Lista[i]+"</li> ");
+        }
+        
+    </script>
+   </ol>
+
+
+</body>
+
+</html>

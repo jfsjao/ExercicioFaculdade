@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+
+
+}
+label{
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+    
+}
+thead{
+    background-color: rgb(90, 89, 89);
+
+}
+#form{
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#table{
+    font-size: 25px;
+    border: 2px;
+    border-style: double;
+    border: 0.063rem solid black;
+}
